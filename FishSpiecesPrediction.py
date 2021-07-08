@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 #create a dataframe using pandas and retrieve data from csv file
-df = pd.read_csv('C:/Downloads/Fishcsv.csv', engine='python')
+df = pd.read_csv('Fishcsv.csv', engine='python')
 df
 
 # separate dependent and independent values
